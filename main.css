@@ -1,7 +1,43 @@
-.sky{
-    color: antiquewhite;
+body{
+    background-color: rgb(4, 19, 19);
 }
 
-.ground{
-    color:brown;
+#bgtop{
+    z-index:1;
+    width: 650px;
+    height:175px;
+    background-color: rgb(79, 95, 107);
+    position:relative;
+    top:0px;
+    left:400px;
+
+}
+
+#bgbottom{
+    background-color:rgb(187, 173, 161);
+    width: 650px;
+    height:625px;
+    position:relative;
+    top:0px;
+    left:400px;
+    z-index:2;
+}
+
+#plate{
+    background-color: aliceblue;
+    width: 300;
+    height: 300;
+    position: relative;
+    top:200px;
+    left:0px;
+    z-index: 3;
+
+}
+
+#food{
+
+}
+
+#eye{
+
 }
