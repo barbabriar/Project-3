@@ -4,77 +4,173 @@ body{
 
 #bgtop{
     z-index:1;
-    width: 650px;
-    height:175px;
-    background-color: rgb(79, 95, 107);
+    width: 720px;
+    height:280px;
+    background-color: #4a5055;
     position:absolute;
     top:0px;
-    left:400px;
 
 }
 
 #bgbottom{
-    background-color:rgb(187, 173, 161);
-    width: 650px;
-    height:625px;
+    background-color:#ae9e72;
+    width: 720px;
+    height:740px;
     position:absolute;
-    top:175px;
-    left:400px;
+    top:280px;
     z-index:2;
 }
 
+#plateshadow{
+    background-color: #333126;
+    width: 360px;
+    height: 305px;
+    position: absolute;
+    top:650px;
+    left:100px;
+    z-index: 3;
+    transform: rotate(25deg);    
+    border-radius: 75% 75% 75% 75%;
+}
+
+
 #plate{
     background-color: aliceblue;
-    width: 250px;
-    height: 220px;
+    width: 360px;
+    height: 300px;
     position: absolute;
-    top:450px;
-    left:515px;
-    z-index: 3;
+    top:620px;
+    left:80px;
+    z-index: 4;
     border-radius: 75% 75% 75% 75%;
 }
 
 .flesh{
-    background-color: rgb(215, 138, 75);
-    width: 200px;
-    height: 180px;
+    background-color:#d4cfba;
+    width: 295px;
+    height: 255px;
     position: absolute;
-    top:480px;
-    left:540px;
-    z-index: 4;
-    border-radius: 75% 75% 75% 75%;
-}
-.flesh1{
-    background-color: rgb(238, 233, 229);
-    width: 200px;
-    height: 180px;
-    position: absolute;
-    top:475px;
-    left:525px;
+    top:640px;
+    left:110px;
     z-index: 5;
     border-radius: 75% 75% 75% 75%;
+    border:1px,solid,#a79776;
 }
+.flesh1{
+    background-color:#c69a75;
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    top:650px;
+    left:135px;
+    z-index: 6;
+    border-radius: 75% 75% 75% 75%;
+} 
 
 #cuptop{
     background-color: rgb(193, 146, 108);
-    width: 50px;
-    height: 35px;
+    width: 100px;
+    height: 60px;
     position: absolute;
-    top:250px;
-    left:650px;
-    z-index: 6;
+    top:355px;
+    left:230px;
+    z-index: 7;
+    border: 2px solid rgb(83, 57, 35);
+    border-radius: 75% 75% 75% 75%;
+}
+
+#cupbody1{
+    background-color: rgb(223, 199, 179);
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top:355px;
+    left:230px;
+    z-index: 7;
     border: 2px solid rgb(83, 57, 35);
     border-radius: 75% 75% 75% 75%;
 }
 
 #cupbottom{
     background-color: rgb(193, 146, 108);
-    width: 35px;
-    height: 25px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top:350px;
-    left:655px;
-    z-index: 6;
+    top:510px;
+    left:250px;
+    z-index: 8;
     border: 2px solid rgb(83, 57, 35);
     border-radius: 75% 75% 75% 75%;
+}
+
+#wineglass{
+   background-color: rgb(20, 11, 3);
+    width: 120px;
+    height: 215px;
+    position: absolute;
+    top:260px;
+    left:430px;
+    z-index: 9;
+}
+
+#wineglass2{
+   background-color: rgb(20, 11, 3);
+    width: 35px;
+    height: 240px;
+    position: absolute;
+    top:35px;
+    left:472.5px;
+    z-index: 10;
+}
+
+#wineglass3{
+   background-color: rgb(20, 11, 3);
+    width: 120px;
+    height: 180px;
+    position: absolute;
+    top:180px;
+    left:430px;
+    z-index: 10;
+    border-radius:45%;
+}
+
+#forkhandle{
+    background-color:white;
+    width: 20px;
+    height: 210px;
+    position: absolute;
+    top:740px;
+    left:495px;
+    z-index: 11;
+}
+
+#forkhead{
+    background-color:rgb(205, 56, 56);
+    width: 50px;
+    height: 120px;
+    position: absolute;
+    top:630px;
+    left:495px;
+    z-index: 11;
+}
+
+#knifehandle{
+    background-color:white;
+    width: 25px;
+    height: 190px;
+    position: absolute;
+    top:770px;
+    left:565px;
+    z-index: 12;
+}
+
+
+#knifehead{
+    background-color:rgb(168, 46, 46);
+    width: 30px;
+    height: 180px;
+    position: absolute;
+    top:620px;
+    left:560px;
+    z-index: 13;
 }
