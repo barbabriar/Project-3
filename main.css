@@ -118,7 +118,6 @@
 } 
 
 #glassshadow{
-    background-color: #333126;
     width: 110px;
     height: 85px;
     position: absolute;
@@ -194,6 +193,17 @@
     left:230px;
     z-index: 9;
     border: 2px solid rgb(83, 57, 35);
+    border-radius: 80%;
+}
+
+#cupbottom2{
+    background-color:#887762;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top:520px;
+    left:242px;
+    z-index: 9;
     border-radius: 80%;
 }
 
